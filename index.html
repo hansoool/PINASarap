@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PINASarap</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+ <!-- Header -->
+ <header>
+  <a href="#" class="logo"><img src="images/pinasarap_logo.png" alt="logo">PINASarap</a>
+
+  <div class="menu-icon" onclick="toggleNavbar()">
+  &#9776;
+  </div>
+
+  <ul class="navbar" id="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="recipe/recipe.html">Recipes</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a class="close-icon" onclick="toggleNavbar()">&#10006;</a></li>
+  </ul>
+ </div>
+ <div class="search-bar">
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search for recipes...">
+    <input type="submit" value="Search">
+  </form>
+</div>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="content">
+      <h1>Welcome To <br> PINASarap</h1>
+      <p>Your ultimate destination for authentic Filipino recipes <br>Straight from the heart of the Philippines!<br> Dive into the rich tapestry of Filipino cuisine with <br>Our collection of mouthwatering recipes<br>That capture the essence of <br>Filipino home cooking.</p>
+      <a href="#featured" class="btn">Go to featured Recipes</a>
+    </div>
+  </section>
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <h1>About PINASarap</h1>
+      <p>PINASarap brings you the essence of Filipino cuisine, offering a delectable array of dishes that capture the flavors and traditions of the Philippines. From savory adobo to mouthwatering halo-halo, our recipes are a celebration of the rich culinary heritage of the islands.</p>
+    </div>
+  </section>
+
+  <!-- Featured Recipes -->
+  <section class="featured" id="featured">
+    <h1 class="featured-heading">Featured Recipes</h1>
+    <div class="container">
+      <div class="recipe">
+        <a href="recipe/adobo.html"><img src="images/adobo.jpg" alt="adobo"></a>
+        <p>Adobong Manok</p>
+      </div>
+      <div class="recipe">
+        <a href="recipe/bicol.html"><img src="images/bicol.jpg" alt="bicol"></a>
+        <p>Bicol Express</p>
+      </div>
+      <div class="recipe">
+        <a href="recipe/monggo.html"><img src="images/monggo.jpg" alt="monggo"></a>
+        <p>Monggo</p>
+      </div>
+      <div class="recipe">
+        <a href="recipe/sinigang.html"><img src="images/sinigangnababoy.jpg" alt="sinigang na baboy"></a>
+        <p>Sinigang na Baboy</p>
+      </div>
+      <div class="recipe">
+        <a href="recipe/karekare.html"><img src="images/karekare.jpg" alt="kare-kare"></a>
+        <p>Kare-Kare</p>
+      </div>
+      <div class="recipe">
+        <a href="recipe/kaldereta.html"><img src="images/kaldereta.jpg" alt="kaldereta"></a>
+        <p>Kaldereta</p>
+      </div>
+    </div>
+  </section>
+  
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="contacts">
+    <h1>Contact Us</h1>
+    <p>Have a question, feedback, or just want to say hello? <br>We'd love to hear from you!<br>Feel free to reach out to us through<br> any of the following channels:<pre></p>
+    <p>Email: info@pinasarapcookbook.com</p>
+    <p>Phone: +1 (555) 123-4567</p>
+    <br><br>
+    <p>Social Media:</p>
+    <ul>
+      <li>Facebook: @PINASarap</li>
+      <li>Instagram: @PINASarap</li>
+      <li>Twitter: @PINASarap</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-content">
+      <div class="footer_social">
+          <a href="https://www.facebook.com/profile.php?id=61559382201563">FB<i class='bx bxl-facebook'></i></a>
+          <a href="https://www.instagram.com/_.solario">IG<i class='bx bxl-instagram' ></i></a>
+          <a href="https://twitter.com/sssssss">TT<i class='bx bxl-twitter' ></i></a>
+      </div>
+      <div class="group-name">
+          <h3>ALA</h3>
+      </div>
+      <div class="tagline">
+          Sarap na Pinasarap pa
+      </div>
+      <br>
+      <p>&#169; ALA. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- icons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!--Boxicons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<script src="script.js"></script>
+
+</body>
+</html>
